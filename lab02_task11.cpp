@@ -5,11 +5,11 @@ void vivod(int age) {
 	if (age == 11 || age == 12 || age == 13 || age == 14) {
 		cout << " лет";
 	}
-	else if (age % 10 < 5 && age % 10 > 0) {
-		cout << " года";
-	}
 	else if (age % 10 == 1) {
 		cout << " год";
+	}
+	else if (age % 10 < 5 && age % 10 > 0) {
+		cout << " года";
 	}
 	else {
 		cout << " лет";
@@ -55,4 +55,5 @@ int main() {
 	}
 
 	return 0;
+
 }
