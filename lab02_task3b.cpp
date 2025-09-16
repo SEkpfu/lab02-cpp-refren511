@@ -8,11 +8,12 @@ int main() {
 	if (x <= -2) {
 		cout << 0;
 	}
-	else if (-2 < x <= 0) {
+	else if (-2 < x && x <= 0) {
 		cout << (pow(x, 2) + 4 * x + 5);
 	}
 	else {
-		((x != 1) ? (cout << (1 / (pow(x, 2) + 4 * x - 5))) : (cout << "Ошибка inf: 1/0 не определно"));
+		((x != 1) ? (cout << (1 / (pow(x, 2) + 4 * x - 5))) : (cout << "Ошибка inf: числитель равен 0"));
 	}
 	return 0;
+
 }
