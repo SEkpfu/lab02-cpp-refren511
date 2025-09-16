@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
 	setlocale(0, "");
@@ -21,13 +21,11 @@ int main() {
     if (s1 > s2 && s1 > s3) {
         cout << "max площадь у первого, S = " << s1;
     }
+    else if (s2 > s3) {
+        cout << "max площадь у второго, S = " << s2;
+    }
     else {
-        if (s2 > s3) {
-            cout << "max площадь у второго, S = " << s2;
-        }
-        else {
-            cout << "max площадь у третьего, S = " << s3;
-        }
+        cout << "max площадь у третьего, S = " << s3;
     }
 	return 0;
 }
