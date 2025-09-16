@@ -14,5 +14,9 @@ int main() {
 	else if (17 == dM && 5 == dW){
 		cout << "неудачный день";
 	}
+	else{
+		cout << "хороший день";
+	}
 	return 0;
+
 }
