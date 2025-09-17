@@ -1,7 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 void output(int cnt) {
-	if (cnt == 11 || cnt == 12 || cnt == 13 || cnt == 14) {
+	if (cnt % 100 == 11 || cnt % 100 == 12 || cnt % 100 == 13 || cnt % 100 == 14) {
 		cout << cnt << " ложек";
 	}
 	else if (cnt % 10 == 1) {
